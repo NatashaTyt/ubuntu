@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source_file="Отсюда копируем.txt"
+destination_file="Сюда копируем.txt"
+
+if [[ -f "$source_file" && -f "$destination_file" ]]; then
+cat "$source_file" > "$destination_file"
+echo "Содержимое файла второй вариант  $source_file записано в $destination_file."
+else
+echo "Один из файлов не существует"
+fi

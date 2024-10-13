@@ -1,0 +1,5 @@
+Baranka : 11 : 100 : male
+Bublic : 13 : 120 : male
+Mercul : 20 : 160 : male
+Petrov : 20 : 150 : male
+Sidorov : 22 : 50 : male
